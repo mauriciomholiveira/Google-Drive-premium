@@ -28,7 +28,7 @@ body {
 .descricao p {
   color: rgb(226, 226, 226);
 }
-.descricao ul{
+.descricao ul {
   color: white;
 }
 .formulario {
@@ -42,7 +42,7 @@ body {
   display: flex;
   flex-direction: column;
 }
-.form h1{
+.form h1 {
   margin: 35px auto;
 }
 .form input {
@@ -53,9 +53,29 @@ body {
   border-radius: 8px;
 }
 
-.btn{
+.btn {
   background: #4284f4;
   color: white;
   font-weight: bold;
   font-size: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    font-size: 12px;
+    display: grid;
+    margin-top: 0;
+    margin-left: 0px;
+    padding: 2rem;
+    text-align: center;
+    max-width: 390px;
+  }
+  .formulario,
+  form {
+    margin: 2rem auto;
+    text-align: center;
+    align-items: center;
+    width: 370px;
+    height: 350px;
+  }
 }
