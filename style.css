@@ -65,10 +65,11 @@ body {
     font-size: 12px;
     display: grid;
     margin-top: 5px;
-    margin-left: 2rem;
-    padding: 0;
+    margin-left: 4rem;
+    padding: 3rem;
     text-align: center;
     max-width: 400px;
+    
   }
   .formulario,
   form {
