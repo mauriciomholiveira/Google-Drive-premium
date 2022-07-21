@@ -66,7 +66,7 @@ body {
     display: grid;
     margin-top: 5px;
     margin-left: 2rem;
-    padding: 3rem;
+    padding: 0;
     text-align: center;
     max-width: 400px;
   }
